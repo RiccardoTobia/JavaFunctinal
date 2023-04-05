@@ -11,16 +11,18 @@ public class Main {
 		people.add(new Person("Lorenzo", Gender.MALE));
 		people.add(new Person("Laura", Gender.FEMALE));
 
-		//Imperative approach
-		List<Person> females = new ArrayList<Person>();
+		//Imperative approach => dobbiamo fare tutto noi.
+		//Dallo scorrere nella lista, alla verifica, alla 
+		// scrittura su schermo della nuova lista
+		List<Person> males = new ArrayList<Person>();
 		
 		for(Person person : people) {
-			if(Gender.FEMALE.equals(person.getGender())) {
-				females.add(person);
+			if(Gender.MALE.equals(person.getGender())) {
+				males.add(person);
 			}
 		}
 		
-		for (Person person : females) {
+		for (Person person : males) {
 			System.out.println(person.toString());
 		}
 	}
