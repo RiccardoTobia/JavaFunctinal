@@ -15,5 +15,7 @@ public class Predicato {
 	
 	static Predicate<String> prLenght = mail -> mail.length() >= 10;
 	
+	static Predicate<String> prCombo = prGmail.and(prLenght);
+	
 	static BiPredicate<String, String> login = (mail, psw) -> mail.equals("mail") && psw.equals("psw");
  }
