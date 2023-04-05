@@ -11,7 +11,7 @@ public class Lambdas {
 //			return name.toUpperCase();
 		
 		//Ciao riccardo del futuro, se mi vedi ed è tutto commentanto,
-		//ricordati che è solo per provare conflitti dvsajfdslòk
+		//ricordati che è solo per provare conflitti parole di senso compiuto
 //		};	
 	}
 }
