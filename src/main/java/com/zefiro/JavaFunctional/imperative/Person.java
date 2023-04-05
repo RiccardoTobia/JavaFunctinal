@@ -22,7 +22,3 @@ public class Person {
 	
 	
 }
-
-enum Gender {
-	MALE, FEMALE, OTHER
-}

@@ -25,5 +25,6 @@ public class Main {
 		for (Person person : males) {
 			System.out.println(person.toString());
 		}
+		
 	}
 }
